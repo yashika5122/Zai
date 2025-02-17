@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+weatherstack:
+  api:
+    url: "http://api.weatherstack.com/current"
+    key: "NjE3MmZiNzFhNTE4MGNmY2ZmZWRiZjk3M2FmMWU1YjM="  # Base64 encoded key
+
+openweathermap:
+  api:
+    url: "http://api.openweathermap.org/data/2.5/weather"
+    key: "Y2M5OWZlZTBkZmYwYmFmY2M3ZmM0NjliZjlmZGQwZDE="  # Base64 encoded key
+
+spring:
+  cache:
+    type: simple
